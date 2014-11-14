@@ -267,6 +267,7 @@ describe('schemas', function () {
         });
 
         var json = user.toJSON();
+        var dateJson = new Date(1415821455000).toJSON();
 
         expect(json).to.deep.equal({
           name: {
@@ -278,7 +279,7 @@ describe('schemas', function () {
             'singing',
             'composing'
           ],
-          joined: '2014-11-12T19:44:15.000Z'
+          joined: dateJson
         });
       });
 
