@@ -1,0 +1,47 @@
+{
+  "name": "schemas",
+  "version": "1.0.0",
+  "description": "Provides validation and default field values for JavaScript objects based on schema.",
+  "keywords": [
+    "schema",
+    "validation",
+    "default",
+    "object",
+    "json",
+    "es6",
+    "harmony",
+    "proxy"
+  ],
+  "license": "MIT",
+  "author": "Meo <i@meo.guru> (http://meo.guru)",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "main": "lib/schemas.js",
+  "repository": "meoguru/schemas",
+  "scripts": {
+    "test": "node node_modules/.bin/gulp lint test",
+    "coveralls": "node node_modules/.bin/gulp coveralls"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "expands": "^1.0.1",
+    "gulp": "^3.8.10",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.3.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.7.1",
+    "gulp-mocha": "^1.1.0",
+    "gulp-notify": "^2.0.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^1.0.3",
+    "istanbul": "^0.3.2",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1",
+    "sinon-chai": "^2.6.0"
+  }
+}
