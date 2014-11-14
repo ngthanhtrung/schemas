@@ -399,7 +399,7 @@ describe('schemas', function () {
         var value = new Date(1415821455000).toISOString();
 
         expect(d1.toISOString()).to.equal(value);
-        // expect(d2.toISOString()).to.equal(value);
+        expect(d2.toISOString()).to.equal(value);
       });
 
       it('should convert numeric value to date', function () {
